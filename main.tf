@@ -12,6 +12,10 @@ resource "hcloud_rdns" "server_rdns" {
   dns_ptr    = var.fqdn
 }
 
+output "id" {
+  value = hcloud_server.server.id
+}
+
 output "ipv4_address" {
   value = hcloud_server.server.ipv4_address
 }
