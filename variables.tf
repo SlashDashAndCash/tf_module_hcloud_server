@@ -5,7 +5,7 @@ variable "hcloud_token" {}
 variable "fqdn" {}
 
 variable "image" {
-  default = "debian-10"
+  default = "debian-11"
 }
 
 variable "server_type" {
